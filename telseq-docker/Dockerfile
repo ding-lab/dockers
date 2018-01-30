@@ -1,9 +1,7 @@
 FROM debian:stretch
-MAINTAINER Hua Sun <jackysun229@gmail.com>
 
-LABEL \
-  version="0.1" \
-  description="Image for bioinformatic tools"
+LABEL software="TelSeq"
+LABEL software.version="latest"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
