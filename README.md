@@ -7,7 +7,7 @@
 
 * disambiguate (2016.11.10)
   ```
-  docker pull hsun9/disambiguate
+  docker pull hsun9/disambiguate:2016.11
   ```
 
 * samtools (1.3.1)
