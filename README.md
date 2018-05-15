@@ -8,6 +8,7 @@
 * disambiguate (2016.11.10)
   ```
   docker pull hsun9/disambiguate
+  docker run hsun9/disambiguate ngs_disambiguate --help
   ```
 
 * samtools (1.3.1)
