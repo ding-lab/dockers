@@ -28,4 +28,12 @@
   
   In MGI:
   bsub -q research-hpc -eo /path/test.err -oo /path/test.log -a 'docker(hsun9/telseq)' telseq /path/sample.bam -m -u -o /path/outname
+  
+  or
+  
+  bsub -q research-hpc -eo /path/test.err -oo /path/test.log -a 'docker(hsun9/telseq)' /bin/bash telseq.sh
+
+  // telseq.sh
+  #!/bin/bash
+  telseq /path/demo.T.bam -m -u > /path/test.out
   ```
