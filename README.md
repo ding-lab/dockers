@@ -24,4 +24,8 @@
 * TelSeq
   ```
   docker pull hsun9/telseq
+  docker run hsun9/telseq telseq sample.bam -m -u > output
+  
+  In MGI:
+  bsub -q research-hpc -eo /path/test.err -oo /path/test.log -a 'docker(hsun9/telseq)' telseq /path/sample.bam -m -u -o /path/outname
   ```
